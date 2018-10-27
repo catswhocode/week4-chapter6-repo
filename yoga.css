@@ -1,0 +1,193 @@
+/*
+1. hr tag: after <nav> and <footer> 
+2. border: @ h2
+3. block and inline element: @ <address> (block) and @ <span> (inline)
+4. border bottom/left/right/top: @ #map
+5. padding: @ h2
+6. padding shorthand: @ .background
+7. img tag: @ index @index page
+8. img as link: @ index page
+9. thumbnail image: @ footer map
+10. figure tag: @ classes
+11. meter tag: @ schedule
+12. progress tag: @ schedule
+13. background-image: @ contact
+14. favicon: @ head element
+15. border-radius: images @ classes
+16. box-shadow: @ a nav
+17. opacity: @ .background
+18. rgba color: @ .background
+19. HSLA color: @ body     
+*/
+
+        body{
+            background-color: hslA(144, 22%, 75%, 0.7);
+            font-family: Optima, sans-serif;
+            font-style: normal;
+            text-align: center;
+            margin: 0 auto;
+             }
+
+        #wrapper{
+                width: 80%;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+          h1{
+            font-weight: lighter;
+            font-size: 40px;
+            text-decoration: underline;
+            text-align: center;
+            letter-spacing: 2px;
+            line-height: %;
+            text-shadow: 0.5px 0.5px green;
+/*            display: inline-block;*/
+/*            position: absolute;*/
+            }
+
+      nav{
+          text-indent: 18px;
+          text-transform: uppercase;
+          font-weight: bold;
+          word-spacing: 20px;
+          line-height: auto;
+/*          overflow: inherit;*/
+          box-sizing: content-box;
+/*          margin: auto 0;*/
+/*
+          width: 100%;
+          position: fixed;
+          float: left;
+*/
+/*          display:list-item;*/
+            }
+
+        nav a {
+          float: center;
+          display: inline;
+          text-align: center;
+          padding: 1px;
+          margin: 10px;
+          text-decoration: none;
+          box-shadow: 1px 1px;
+        
+        }
+
+/*
+nav a{
+    display: inline-block;
+    text-align: center;
+      margin-right: auto;
+          margin-left: auto;
+}
+*/
+
+        .background{
+            background-color: RGBA(223, 234, 227, 1);
+            opacity: 0.7;
+            border:0.5px;
+            padding: 5px 50px;    
+        /*    background-size: 100% 100%;*/
+        }
+
+        #mainimg{
+            border: 5px outset teal;
+            padding: 1px;
+        }
+
+        img{
+            border-radius: 20%;
+            border-color: none;
+
+        }
+
+        #hr{
+            border-color:inherit;
+        }
+        h2{
+           background-color: azure;
+           font-weight: 200;
+           letter-spacing: 1px;
+           line-height: 2px;
+           padding: 15px;
+           width: 50%;
+           margin-right: auto;
+           margin-left: auto;
+           text-align: fixed;
+           border: 1px dotted teal;
+           padding: 20px 2px;
+          }
+        
+        li {
+            line-height:1.6;
+            text-align: center;
+            }
+        
+        #address{
+            line-height:1.2;
+            font-weight: bold;
+            }
+            
+
+        .studio{
+            font-style: italic;
+        }
+    
+    
+        nav a:hover{
+                background-color: azure;
+                padding: 1px 0px;
+                }
+        
+
+        h2:hover{
+            background-color:;
+        }
+
+
+        a{
+           text-decoration: none;
+           text-transform: uppercase;
+           color: #549B93;
+           border: 1px solid #ccb0c1;
+         }
+
+
+
+        footer{
+            font-style: italic;
+            font-size: 0.7em;
+            text-align: center;
+            text-align: center;
+        }
+
+        #map{
+            border: 1px 1px 1px 1px;
+            border-color: aqua;
+            border-radius: 0;
+        }
+
+        dt{
+            font-weight: bold;
+         }
+
+        #align{
+            display: inline-block;
+        }
+
+        #meter{
+            text-align: justify;
+        }
+
+        .contact{
+            background-image: url(images/forestbackground.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-color: hsl(144, 22%, 75%);
+        }
+
+
+
+   
